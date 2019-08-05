@@ -1,0 +1,98 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    {% for image in images %}
+          $("#{{ image.city }}_list").click(function(){
+                $("#{{ image.city }}").effect('shake',{times: 6, direction: "up"}, 800, function(){
+                    $("#{{ image.city }}").width(80);
+                    $("#{{ image.city }}").height(60);
+                })
+            })
+    {% endfor %}
+
+});
+</script>
+<style>
+.container {
+  position: relative;
+}
+
+{% for image in images %}
+.{{ image.city}}_location {
+    position: absolute;
+    bottom: {{ image.get_bottom }};
+    left: {{ image.get_left }};
+}
+{% endfor %}
+
+.bottom-left {
+    position: absolute;
+    bottom: 70%;
+    left: 16%;
+}
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes shake {
+  0% { transform: translate(0px, 1px) rotate(0deg); }
+  60% { transform: translate(-1px, -1px) rotate(0deg); }
+  100% { transform: translate(1px, -1px) rotate(-1deg); }
+}
+</style>
+
+<div class="w3-sidebar w3-bar-block w3-card" style="width:25%;right:0;">
+  <h3 class="w3-bar-item">Menu</h3>
+  {% for image in images %}
+    <a href="#" class="w3-bar-item w3-button" id="{{ image.city }}_list">{{ image.city }}</a>
+  {% endfor %}
+</div>
+
+<div style="margin-right:25%">
+    <div class="w3-container">
+        <div class="w3-container w3-teal">
+          <h1>Over the years</h1>
+        </div>
+        <div class="container">
+            <img src="{% static "tv/world_map.jpg" %}" alt="world map" class="w3-round-large" style="width:99%">
+{#            <div class="bottom-left">#}
+{#                <img src="{% static "tv/tahoe.JPG" %}" id="tahoe" alt="tahoe" class="w3-circle" style="width:5%">#}
+{#            </div>#}
+            {% for image in images %}
+             <div class="{{ image.city }}_location">
+                 <img src='{% static image.get_image_path %}' id={{ image.city }} alt={{ image.city }} class="w3-circle" width="30" height="20">
+             </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+</html>

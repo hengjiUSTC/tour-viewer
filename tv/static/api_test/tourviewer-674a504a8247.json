@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tourviewer",
+  "private_key_id": "674a504a8247d51ab577edb41eecace9c67dfe99",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCXvJlWdYR4SuQV\n27sm7sRocWaiH3lkYaL29YWGoYlz6kS6QzGkEQs5BvlRsp2wlDi7TBFrGsUjs2Gg\nQELb83szkpo0cKX1lOZSOQwU8R6aQBj7NMEv/GvDh2FAyyYCdmd0MuMlRoZOxFxc\ngkXrse5En4CBPnKFd/QMI3ehokRPRWTaVtkh/gMrwDt5g9N9bvEPF2ws5+xV8GrX\n4X1QuH30EnE/lKfe89ULayRQCSrWLXq25AgHtpSiTThF6za6hjWCNEKVkuVbhtEF\nHNXLw2URv3uvVDpvYeG65PFi1oghUZe9YDcogTUT/EDT/wtQ833mCkev8WQIy+6V\nuiCq30gzAgMBAAECggEAAPMZTw56fY+ZpNj8XJzwwNp7Eu1aCQmFV0cZ4rpMkFuW\nMPaRUxwqibd2I7BDdC55ShOQ9ytpLt871orCXTx3St7Yl24n+WQ2Vii2aLFi+pHP\nPsyWHHAigsLZpdciwLAFmNjclWXFWTaBYice89QHShlitnKY6yAJvTPa1yC0Qpc4\njqF2kDXqhmc8I+9Mu63xSTPRVfJqnud4xnP0th7IkIAH2fgc28oD07XbxQQDjuLd\nbW9Bc3Ckb+KAR7nTo927ch+hTILSbSZrF4o0nnma598Cv/sMVtI07ws0d9Pou83B\n8s1Vr42ocmdfP189bDCzOPlpbKxQArcddblMGRy5gQKBgQDOfceRHwtjRc6Y4ek/\nBLjH0mK0+2sustgihXXggbsYgBuO6GUBwBVbWuBTK5l0zT0TA1fUgyxiczHgOlY9\nYmACqUkdBhJkR4gqR8J7TS9xDp/v3rIXqItbLFbIdqS0AXnNUP1TUF+ptbDSrAD8\nuOdHvTzL8rehPfRTqVStD4vEjwKBgQC8Hgn4DDV79DDWz05pFQBl0A0iHlahxpGp\nljoEncxIq7zQpp1hrPgMCbxYHf6yw2hamtMMFKYpksirDgrVwrXaCBReCxpgsyHw\n2AGnKXW9gPPknpzhyul+tmpaqwu5RDmmgv/QmGs5+ZEJfXU37ni5/GFMlZhj6rAJ\nSdpzE7+8HQKBgGuDbARwoJJIx4AsqDBqufc44LIQ8ka3Uffve2ewxITGNxMah3T4\n2WXelExZuCXrsvASXonE3rhH+GEinsKJVSotkGbvQWY7JHe3M1jV4GzCS54uWpYc\n6KpJFMp9k9YxqoSvtabKg3SuqGmYq07qy2k768rZDqmCw5NH6FHPdVubAoGAcbsf\nf82x0Dz0AgrXdwRxdxxvtD7vVWM90W+3p+7XAOCDiQoSgGkYlf6U1hlcUSt+vbh4\n/AbH5r6Nf40/07iiRS05UxoXWnsye++8IBoayvVZftC+PGx2+lrCtgpPTjUHPbpZ\nev2LZkOSAlDNO4F7j8Yb9TdEKLRMtXDnF0fLVakCgYAqnSnQMDGLVA8p82JVH798\nTnQaMKfqb0tMST4TpyIFNXy+ddZit6s45YeGttuVGhUKKeS7xGJ+wizzXK2EaLwi\nIf2rjkXDZeAubX6af3WvqzCifiF4vJJ3taI/QN6cqLrnLdiQx46btZRb+jN2TwKU\n/WjACHOZo2kkEvTD7gVxDA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "tourviewer@tourviewer.iam.gserviceaccount.com",
+  "client_id": "113699589047803268191",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tourviewer%40tourviewer.iam.gserviceaccount.com"
+}
