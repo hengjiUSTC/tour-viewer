@@ -2,9 +2,9 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="{% static 'tv/css/w3.css' %}">
+<script src="{% static 'tv/js/jquery.min.js' %}"></script>
+<script src="{% static 'tv/js/jquery-ui.min.js' %}"></script>
 <script type="text/javascript">
 $(document).ready(function(){
     {% for image in images %}
