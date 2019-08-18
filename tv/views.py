@@ -9,7 +9,6 @@ from django.views import generic
 from geopy import Nominatim
 
 from tv.models import Question, Choice
-from tv.google_drive.display import GoogleDriveClient
 from tv.util.ImageHolder import ImageHolder
 
 STATIC_FOLDER = "tv/static/"
